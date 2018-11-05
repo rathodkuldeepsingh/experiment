@@ -14,8 +14,9 @@
 
   </body>
   <script>
-  var tex=$("#project-filter-text").text();
+  var tex;
   $('#project-filter').on('keyup', function() { 
+    tex =$("#project-filter-text").text();
     console.log(tex); 
   
   });
